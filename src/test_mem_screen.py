@@ -14,4 +14,4 @@ framebuffer = sharpdisplay.SharpMemoryFramebuffer(bus, chip_select_pin, 144, 168
 # For the 144x168 display (can be operated at up to 8MHz)
 #framebuffer = sharpdisplay.SharpMemoryFramebuffer(bus, chip_select_pin, width=144, height=168, baudrate=8000000)
 
-display = framebufferio.FramebufferDisplay(framebuffer, rotation = 90)
+display = framebufferio.FramebufferDisplay(framebuffer, rotation = 270)

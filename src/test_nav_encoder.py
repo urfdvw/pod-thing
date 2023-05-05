@@ -11,15 +11,25 @@ import rotaryio
 
 # The pin assignments for the breakout pins. Update this is you are not using a Feather.
 
-ENCA = board.SDA
-ENCB = board.SCL
-COMA = board.D5
-SW1 = board.D6
+# ENCA = board.SDA
+# ENCB = board.SCL
+# COMA = board.D5
+# SW1 = board.D6
+# SW2 = board.D9
+# SW3 = board.D10
+# SW4 = board.D11
+# SW5 = board.D12
+# COMB = board.D13
+
+ENCA = board.D13
+ENCB = board.D12
+COMA = board.D11
+SW1 = board.D10
 SW2 = board.D9
-SW3 = board.D10
-SW4 = board.D11
-SW5 = board.D12
-COMB = board.D13
+SW3 = board.D6
+SW4 = board.D5
+SW5 = board.SCL
+COMB = board.SDA
 
 # Rotary encoder setup
 encoder = rotaryio.IncrementalEncoder(ENCA, ENCB)
